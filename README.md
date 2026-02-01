@@ -15,6 +15,7 @@ This project is a Python-based maze solver that uses classical Artificial Intell
 - The HTML file opens automatically in the browser after execution
 
 # Project Structure
+```text
 AMaze/
 │
 ├── algorithms/
@@ -34,6 +35,7 @@ AMaze/
 ├── maze.txt
 ├── main.py
 └── README.md
+```
 
 # Prerequisites
 - Python 3.8 or higher
@@ -47,11 +49,32 @@ AMaze/
 - The solved maze will automatically open in your default web browser
 
 # Maze format
-- A = Start
-- Z = Goal
-- # = Wall
-- Space = Open path
+```text
+A = Start
+Z = Goal
+# = Wall
+Space = Open path
 
+You can edit the maze using format above.
+```
+# Maze (15x15)
+```text
+###############
+#A   #      # #
+# ### ##### # #
+#   #     #   #
+### # ### # ###
+#   # #   #   #
+# ### # ### ###
+#     #   #   #
+##### ### ### #
+#   #   #     #
+# # ### # ### #
+# #     # Z # #
+# ##### ### # #
+#       #     #
+###############
+```
 # Technology used
 - Python
 - Data structure (Stack, Queue, Priority Queue)
